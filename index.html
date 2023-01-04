@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <base href="/">
+    <title>Студия</title>
+    <link rel="stylesheet" href="css/common.css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <button id="button-open" type="button" class="style">Open modal</button>
+    <h2 class="hiden">That's ok, you are logged</h2>
+    <div id="overlay" class="overlay hiden"></div>
+    <div id="modal" class="modal hiden">
+        <div id="button-close" class="close-modal"></div>
+        <form id="login-form">
+            <input class="login" name="login" placeholder="Enter login">
+            <input class="password" name="password" placeholder="Enter password">
+            <button type="submit">Submit</button>
+            <h4 class="error hiden">Login or password is incorrect</h4>
+        </form>
+    </div>
